@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TeacherService {
+public class TeacherService implements Service{
     private final List<Teacher> teachers;
 
     public TeacherService() {
